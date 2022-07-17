@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		331DBB332883BBF100CB4FF5 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331DBB322883BBF100CB4FF5 /* Question.swift */; };
 		331DBB3828842E8A00CB4FF5 /* QuizBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331DBB3728842E8A00CB4FF5 /* QuizBrain.swift */; };
+		331DBB3A288451DA00CB4FF5 /* MultiQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331DBB39288451DA00CB4FF5 /* MultiQuestion.swift */; };
 		335763D82883A6CE00707402 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335763D72883A6CE00707402 /* AppDelegate.swift */; };
 		335763DA2883A6CE00707402 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335763D92883A6CE00707402 /* SceneDelegate.swift */; };
 		335763DC2883A6CE00707402 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335763DB2883A6CE00707402 /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		331DBB322883BBF100CB4FF5 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		331DBB3728842E8A00CB4FF5 /* QuizBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizBrain.swift; sourceTree = "<group>"; };
+		331DBB39288451DA00CB4FF5 /* MultiQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiQuestion.swift; sourceTree = "<group>"; };
 		335763D42883A6CE00707402 /* Quizzler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quizzler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		335763D72883A6CE00707402 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		335763D92883A6CE00707402 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -46,6 +48,7 @@
 			children = (
 				331DBB322883BBF100CB4FF5 /* Question.swift */,
 				331DBB3728842E8A00CB4FF5 /* QuizBrain.swift */,
+				331DBB39288451DA00CB4FF5 /* MultiQuestion.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				331DBB3828842E8A00CB4FF5 /* QuizBrain.swift in Sources */,
+				331DBB3A288451DA00CB4FF5 /* MultiQuestion.swift in Sources */,
 				335763DC2883A6CE00707402 /* ViewController.swift in Sources */,
 				331DBB332883BBF100CB4FF5 /* Question.swift in Sources */,
 				335763D82883A6CE00707402 /* AppDelegate.swift in Sources */,
